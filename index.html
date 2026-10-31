@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>YT Technology</title>
+<meta name="description" content="YT Technology builds digital projects and useful tools.">
+<meta name="theme-color" content="#05070d">
+<link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&family=Sora:wght@400;600;800&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#projects" data-i18n="skip">Skip to projects</a>
+<header class="nav" id="nav">
+  <a class="brand" href="#home" aria-label="YT Technology"><img src="assets/logo.svg" alt="" width="38" height="38"><span>YT Technology</span></a>
+  <nav aria-label="Main">
+    <button class="burger" id="burger" aria-expanded="false" aria-controls="menu" aria-label="Menu"><i></i><i></i><i></i></button>
+    <ul id="menu">
+      <li><a href="#home" data-i18n="nav_home">Home</a></li>
+      <li><a href="#projects" data-i18n="nav_projects">Projects</a></li>
+      <li><a href="#about" data-i18n="nav_about">About</a></li>
+      <li><a href="#contact" data-i18n="nav_contact">Contact</a></li>
+      <li><button class="lang" id="lang" type="button" aria-label="Switch language">العربية</button></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="grid-bg" aria-hidden="true"></div>
+  <div class="orb" aria-hidden="true"></div>
+  <div class="wrap hero-in">
+    <img class="hero-logo" src="assets/logo.svg" alt="YT Technology logo" width="96" height="96">
+    <h1 data-i18n="h1">Technology built to be used.</h1>
+    <p class="lead" data-i18n="lead">YT Technology designs and develops digital projects and practical tools, from online stores to everyday developer utilities.</p>
+    <a class="btn" href="#projects" data-i18n="cta">Explore Our Projects</a>
+  </div>
+</section>
+
+<section class="sec" id="projects">
+  <div class="wrap">
+    <h2 data-i18n="projects_t">Our Projects</h2>
+    <p class="sub" data-i18n="projects_s">Two live projects, open and ready to use.</p>
+    <div class="cards">
+      <a class="card" href="https://collection-car.github.io/collection-car/" aria-labelledby="c1t" aria-describedby="c1d">
+        <svg class="ico" viewBox="0 0 64 64" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M8 38l5-14a6 6 0 015.6-4h26.8a6 6 0 015.6 4l5 14"/><rect x="6" y="38" width="52" height="12" rx="4"/><circle cx="18" cy="50" r="5" fill="#05070d"/><circle cx="46" cy="50" r="5" fill="#05070d"/><path d="M16 38h4M44 38h4M20 28h24"/></svg>
+        <h3 id="c1t">Collection Car</h3>
+        <p id="c1d" data-i18n="c1">An online store for car accessories, with a clean catalog that makes it easy to browse and find what your car needs.</p>
+        <span class="visit" data-i18n="visit">Visit Project</span>
+      </a>
+      <a class="card" href="https://yt-technology.github.io/YC-Tools/" aria-labelledby="c2t" aria-describedby="c2d">
+        <svg class="ico" viewBox="0 0 64 64" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 20L10 32l12 12M42 20l12 12-12 12M36 14L28 50"/></svg>
+        <h3 id="c2t">YC Tools</h3>
+        <p id="c2d" data-i18n="c2">A collection of technical tools for coding, formatting, networking, security and data analysis, all in one place.</p>
+        <span class="visit" data-i18n="visit">Visit Project</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="about">
+  <div class="wrap about">
+    <h2 data-i18n="about_t">About Us</h2>
+    <p data-i18n="about_p">YT Technology is a technology brand that develops digital projects and useful tools. We focus on simple, fast and reliable products that solve real everyday problems.</p>
+  </div>
+</section>
+
+<section class="sec" id="contact">
+  <div class="wrap contact">
+    <h2 data-i18n="contact_t">Contact</h2>
+    <p data-i18n="contact_p">Have a question or an idea? Send us an email.</p>
+    <a class="btn" href="mailto:yttecnology.eg@gmail.com">yttecnology.eg@gmail.com</a>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <a class="brand" href="#home" aria-label="YT Technology"><img src="assets/logo.svg" alt="" width="30" height="30"><span>YT Technology</span></a>
+    <ul>
+      <li><a href="#projects" data-i18n="nav_projects">Projects</a></li>
+      <li><a href="#about" data-i18n="nav_about">About</a></li>
+      <li><a href="#contact" data-i18n="nav_contact">Contact</a></li>
+    </ul>
+    <p>&copy; <span id="yr">2026</span> YT Technology. <span data-i18n="rights">All rights reserved.</span></p>
+  </div>
+</footer>
+<script src="js/main.js" defer></script>
+</body>
+</html>
